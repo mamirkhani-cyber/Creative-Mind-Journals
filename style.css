@@ -94,6 +94,13 @@ body {
   text-decoration: none;
   color: var(--color-gray-dark);
   border-radius: var(--rounded-10);
+  padding: 2px;
+}
+
+.header__link:hover {
+  box-shadow: 0 2px 4px 1px var(--color-blue-light);
+  outline: none;
+  color: var(--color-blue-light);
 }
 
 .container {
@@ -207,6 +214,7 @@ body {
   font-size: var(--text-15);
   color: var(--color-blue-light);
   text-decoration: none;
+  border-radius: var(--rounded-10);
 }
 
 .footer__btn {
